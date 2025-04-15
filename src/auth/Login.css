@@ -1,0 +1,37 @@
+#formbox{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 50%;
+  /* border: 1px */
+  margin-top: 27px;
+  padding: 7% 15%;
+  border-radius: 44px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+input{
+  margin-bottom: 9px !important;
+  width: 218px;
+  border-radius: 2px;
+  padding: 3px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.lgbtn{
+  margin-bottom: 9px !important;
+  width: 218px;
+  border-radius: 2px;
+  padding: 3px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+h1{
+  text-align:  center;
+  margin-bottom: 21px !important;
+}

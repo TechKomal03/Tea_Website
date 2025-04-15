@@ -1,0 +1,161 @@
+#catid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 20px;
+}
+#catid h1{
+    font-size: 27px;
+}
+#catid h1 {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  h1:hover {
+    color: gray;
+  }
+  
+  .teacard {
+    position: relative;
+    /* Add more styling as needed */
+  }
+  
+  /* Example of hover effect */
+  .stor {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+ }
+ .place .card-img-top{
+  height: 250px;
+  border-radius: 0 !important;
+ 
+ }
+ .place{
+  border: none;
+  border-radius: 0 !important;
+  background-color: transparent;
+  color: white;
+
+ }
+ 
+
+ .place p{
+  text-align: left;
+  font-size: 16px;
+ }
+ .sp{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  text-align: start;
+ }
+.find{
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: white;
+
+}
+.text p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+color: white;
+}
+.text span{
+  font-size: 16;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+
+}
+.footer{
+
+ height: auto;
+}  
+
+.ftoor img{
+  width: 50%;
+  
+}
+.ftoor p{
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: RGBA(0, 0, 0, 0.5);
+  line-height: 24px; 
+  margin-top: 15px;
+}
+.ftoor input{
+  border-radius: 10px 0px 0px 10px;
+   width: 50%;
+   box-shadow: none;
+   background-color: whitesmoke;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+}
+.ftoor button{
+  width: 15%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 0px 10px 10px 0px;
+  background-color: black;
+  color: white;
+
+}
+.ftoor h4{
+  font-size: 20px;
+   margin-top: 10px;
+}
+
+.ftoor{
+  border: 1px solid rgba(98, 96, 96, 0.326);
+}
+.ftoor h2{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  font-family: "Jost", sans-serif;
+  margin-top: 10px;
+  text-decoration: underline rgba(66, 65, 65, 0.667);
+}
+.ftoor li{
+  list-style: none;
+  margin-top: 14px;
+  color: rgba(61, 59, 59, 0.811);
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+.ftoor ul{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.ftoor li:hover{
+  margin-left: 8px;
+  transition: all 0.5s;
+  color: black;
+}
+
+@media screen and (max-width: 480px){
+  .stor {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+
+ }
+ #catid h1{
+  font-size: 15px;
+}
+
+}

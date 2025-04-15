@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}.nav{
+  width: 100%;
+  height: 100px;
+/* margin-bottom: 20px !important; */
+  border-bottom: 1px solid rgba(122, 121, 121, 0.263);
+}
+.nav-list{
+  width: 35%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+.navlogo{
+  width: 35%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+.navicon{
+  width: 30%;
+  background-color: white;
+  height: 100%;
+  float: left;
+}
+.list {
+  display: flex;
+  float: left;
+  margin: 37px 14px;
+}
+.navlogo img{
+  width: 39%;
+  margin: 11px 125px;
+}
+.navicon button{
+  width: 78px;
+  background-color: transparent;
+  /* border: 1px solid black; */
+  padding: 3px 5px;
+  border-radius: 15px;
+  margin: 31px 4px
+}
+
+.btnbox{
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  position: absolute;
+  top: 120px;
+  right: 50px;
+}
+.carousel-caption {
+   display: flex;
+   flex-direction: column !important;
+   justify-content: center !important;
+   align-items: center;
+   text-align: center;
+   bottom: 73px !important;
+}
+.carousel-caption h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.sliderdiv{
+  /* padding-top: 7rem; */
+
+}
+
+.hdbtn{
+    position: absolute;
+    width: 13%;
+    height: 51px;
+    background-color: white;
+    margin-top: -20%;
+    margin-left: 12%;
+    border-radius: 10px
+}
+/* .circletea{
+    width: 16%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-top: 30px;
+    overflow: hidden;
+} */
+
+
+.circletea img{
+    width: 100%;
+}
+.sliderbox{
+    height: 600px;
+    width: 100%;
+  margin-bottom: 20px;
+}
+
+.sliderbox .slide{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner{
+    width: 100% !important;
+    height: 100% !important;
+}
+.carousel{
+width: 100%;
+height: 100%;
+}
+.carousel-item{
+  height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.divCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Optional: Adds space around each item */
+  }
+  .divCircle h3{
+    font-family:  "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .circletea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the image stays within the circle */
+  }
+  .circletea img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .circletea img {
+    width: 100%; /* Make sure the image fills the circle */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .teacat{
+    display: flex; /* Aligns all items in a row */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line if they overflow */
+    gap: 15px;
+    justify-content: center;
+  }
+  .headtxt{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 21px;
+  }
+  .price{
+    font-size: 16px;
+    font-family:  "Jost", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #FF6363;
+  }
+  .price span{
+    color: #3a383880;
+    text-decoration: line-through;
+  }
+  .card-text{
+    text-align: center;
+    font-size: 16px;
+    font-family:  "Jost", sans-serif;
+    font-weight: 500;
+  }
+  .sidenav{
+    display: none;
+  }
+  .proimg2{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+ 
+    transition: all 0.5s ease-in-out;
+  }
+  .teacard:hover .proimg2{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+
+  }
+  .teacard{
+    border: none !important;
+  }
+  .teagraden {
+    /* background-image: url('/image/image_433.png'); */
+    width: 100%;
+    height: 450px;
+    background-color: #FF6363;
+    background-size: cover;
+    padding-top: 10%;
+    padding-left: 10% !important;
+    background-position: center;
+    position: relative;
+}
+.gardentxt{
+  width: 36%;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+}
+.gardentxt h5{
+  font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.gardentxt p{
+  font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+.shopbtn{
+  width: 130px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+.shopbtn:hover{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+.women{
+  width: 100%;
+  height: 530px;
+    object-fit: cover;
+}
+.card-header{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none !important;
+  background-color: white !important;
+}
+.sub{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  font-weight: 500;
+  
+}
+.subp{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 35px;
+  color: rgb(
+    0, 0, 0, 0.7);
+}
+.backpng{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+.shopbtn12{
+  width: 145px;
+  height: 47px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+background-color: transparent;
+border: 2px solid black;
+margin-top: 8%;
+font-family: "Cormorant Garamond", serif;
+font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-list ul{
+ display: none;
+} 
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+.navicon button{
+  display: none;
+}
+.navicon, .two, .three{
+  display: none;
+}
+.nav{
+height: 70px;
+}
+.logo{
+  width: 25%;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 100% !important;
+}
+.carousel-item {
+  width: 100%;
+  height: 100% !important;
+}
+.teacat{
+  display: flex; /* Aligns all items in a row */
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+.headtxt{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 21px;
+}
+.circletea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px; 
+  height: 350px; 
+  border-radius: 50%;
+  overflow: hidden; 
+
+}
+.divCircle {
+  display: flex;
+  flex-direction: column;
+
+}
+.teacat{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.gardentxt h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+.card {
+ width: 100%;
+}
+.card-text{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+.backpng{
+display: none;
+}
+.sliderdiv{
+  padding-top: 1rem;
+  
+}
+.sliderbox{
+  height: 300px;
+
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+ top: 90px !important;
+}
+.carousel-caption h5{
+   font-size: 14px;
+   font-weight: 400;
+   font-family:'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+   font-size: 24px;
+   font-weight: 600;
+   font-family:'Times New Roman', Times, serif;
+}
+.nav-list span{
+  display: block;
+}
+
+}
